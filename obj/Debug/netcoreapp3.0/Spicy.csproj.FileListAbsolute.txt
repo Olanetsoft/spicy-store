@@ -464,3 +464,4 @@ C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\IDRIS GIT\Spicy\obj\Debug\netcoreapp3
 C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\IDRIS GIT\Spicy\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\IDRIS GIT\Spicy\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
 C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\IDRIS GIT\Spicy\obj\Debug\netcoreapp3.0\Razor\Areas\Admin\Views\Category\Index.cshtml.g.cs
+C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\IDRIS GIT\Spicy\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_CreateButtonPartial.cshtml.g.cs
