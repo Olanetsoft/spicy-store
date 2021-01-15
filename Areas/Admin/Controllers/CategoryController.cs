@@ -49,5 +49,24 @@ namespace Spicy.Areas.Admin.Controllers
             return View(category);
         }
 
+        // GET - EDIT
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if(id == null)
+            {
+                return NotFound();
+            }
+
+            // Find the category
+            var category = await _db.Category.FindAsync(id);
+            if (category == null)
+            {
+                return NotFound();
+            }
+            return View(category);
+
+
+        }
+
     }
 }
