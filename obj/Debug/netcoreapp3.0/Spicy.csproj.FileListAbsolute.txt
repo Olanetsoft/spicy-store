@@ -470,3 +470,5 @@ C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\IDRIS GIT\Spicy\obj\Debug\netcoreapp3
 C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\IDRIS GIT\Spicy\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_TableButtonPartial.cshtml.g.cs
 C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\IDRIS GIT\Spicy\obj\Debug\netcoreapp3.0\Razor\Areas\Admin\Views\Category\Edit.cshtml.g.cs
 C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\IDRIS GIT\Spicy\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_EditAndBackToListButton.cshtml.g.cs
+C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\IDRIS GIT\Spicy\obj\Debug\netcoreapp3.0\Razor\Areas\Admin\Views\Category\Delete.cshtml.g.cs
+C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\IDRIS GIT\Spicy\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_DeleteAndBackToListButton.cshtml.g.cs
