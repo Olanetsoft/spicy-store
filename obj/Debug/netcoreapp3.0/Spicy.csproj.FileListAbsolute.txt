@@ -465,3 +465,6 @@ C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\IDRIS GIT\Spicy\obj\Debug\netcoreapp3
 C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\IDRIS GIT\Spicy\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
 C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\IDRIS GIT\Spicy\obj\Debug\netcoreapp3.0\Razor\Areas\Admin\Views\Category\Index.cshtml.g.cs
 C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\IDRIS GIT\Spicy\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_CreateButtonPartial.cshtml.g.cs
+C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\IDRIS GIT\Spicy\obj\Debug\netcoreapp3.0\Razor\Areas\Admin\Views\Category\Create.cshtml.g.cs
+C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\IDRIS GIT\Spicy\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_CreateAndBackToListButton.cshtml.g.cs
+C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\IDRIS GIT\Spicy\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_TableButtonPartial.cshtml.g.cs
