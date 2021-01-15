@@ -118,5 +118,22 @@ namespace Spicy.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
 
         }
+
+        // GET - DETAILS
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            // Find the category
+            var category = await _db.Category.FindAsync(id);
+            if (category == null)
+            {
+                return NotFound();
+            }
+            return View(category);
+        }
     }
 }
