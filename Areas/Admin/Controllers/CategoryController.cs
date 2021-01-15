@@ -52,7 +52,7 @@ namespace Spicy.Areas.Admin.Controllers
         // GET - EDIT
         public async Task<IActionResult> Edit(int? id)
         {
-            if(id == null)
+            if (id == null)
             {
                 return NotFound();
             }
@@ -64,9 +64,25 @@ namespace Spicy.Areas.Admin.Controllers
                 return NotFound();
             }
             return View(category);
-
-
         }
+
+        // POST - EDIT
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+
+        public async Task<IActionResult> Edit(Category category)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Update(category);
+                await _db.SaveChangesAsync();
+
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View(category);
+        }
+
 
     }
 }
