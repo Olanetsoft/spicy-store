@@ -157,5 +157,43 @@ namespace Spicy.Areas.Admin.Controllers
             //modelVM.SubCategory.Id = id;
             return View(modelVM);
         }
+
+        // GET - DELETE
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            // Find the sub category
+            var subCategory = await _db.SubCategory.FindAsync(id);
+            if (subCategory == null)
+            {
+                return NotFound();
+            }
+            return View(subCategory);
+        }
+
+        // POST - DELETE
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int? id)
+        {
+            // Find the category
+            var subCategory = await _db.SubCategory.FindAsync(id);
+
+            if (subCategory == null)
+            {
+                return View();
+            }
+            _db.SubCategory.Remove(subCategory);
+            await _db.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+
+        }
+
+
     }
 }
