@@ -475,3 +475,4 @@ C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\IDRIS GIT\Spicy\obj\Debug\netcoreapp3
 C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\IDRIS GIT\Spicy\obj\Debug\netcoreapp3.0\Razor\Areas\Admin\Views\Category\Details.cshtml.g.cs
 C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\IDRIS GIT\Spicy\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_DetailsAndBackToListButton.cshtml.g.cs
 C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\IDRIS GIT\Spicy\obj\Debug\netcoreapp3.0\Razor\Areas\Admin\Views\SubCategory\Index.cshtml.g.cs
+C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\IDRIS GIT\Spicy\obj\Debug\netcoreapp3.0\Razor\Areas\Admin\Views\SubCategory\Create.cshtml.g.cs

@@ -39,7 +39,7 @@ namespace Spicy.Areas.Admin.Controllers
 
             };
 
-            return View(model)
+            return View(model);
 
         }
     }
