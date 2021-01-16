@@ -15,6 +15,12 @@ namespace Spicy.Areas.Admin.Controllers
     {
 
         private readonly ApplicationDbContext _db;
+
+        // Create Temdata variable to hold status message
+        [TempData]
+        public string StatusMessage { get; set; }
+
+        // Connet to DB
         public SubCategoryController(ApplicationDbContext db)
         {
             _db = db;
@@ -56,9 +62,11 @@ namespace Spicy.Areas.Admin.Controllers
                 if (doesSubCategoryExists.Count() > 0)
                 {
                     // Display Error
+                    StatusMessage = "Error : Sub Category exists under " + doesSubCategoryExists.First().Category.Name + " category. Please use another Name";
                 }
                 else
                 {
+                    // Add
                     _db.SubCategory.Add(model.SubCategory);
                     await _db.SaveChangesAsync();
                     return RedirectToAction(nameof(Index));
@@ -69,8 +77,8 @@ namespace Spicy.Areas.Admin.Controllers
             {
                 CategoryList = await _db.Category.ToListAsync(),
                 SubCategory = model.SubCategory,
-                SubCategoryList = await _db.SubCategory.OrderBy(p => p.Name).Select(p => p.Name).ToListAsync()
-
+                SubCategoryList = await _db.SubCategory.OrderBy(p => p.Name).Select(p => p.Name).ToListAsync(),
+                StatusMessage = StatusMessage
             };
             return View(modelVM);
         }
