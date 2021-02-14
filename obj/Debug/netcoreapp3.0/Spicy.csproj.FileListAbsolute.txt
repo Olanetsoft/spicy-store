@@ -1445,3 +1445,4 @@ C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\spicy-store\obj\Debug\netcoreapp3.0\S
 C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\spicy-store\obj\Debug\netcoreapp3.0\Spicy.pdb
 C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\spicy-store\obj\Debug\netcoreapp3.0\Spicy.genruntimeconfig.cache
 C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\spicy-store\obj\Debug\netcoreapp3.0\Spicy.csprojAssemblyReference.cache
+C:\Users\IfeanyiTavia\Desktop\IDRIS FOLDER\spicy-store\obj\Debug\netcoreapp3.0\Razor\Areas\Admin\Views\MenuItem\Create.cshtml.g.cs
