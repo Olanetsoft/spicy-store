@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 
 namespace Spicy.Areas.Admin.Controllers
 {
+    [Area("Admin")]
+
     public class MenuItemController : Controller
     {
         private readonly ApplicationDbContext _db;
