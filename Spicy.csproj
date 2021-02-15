@@ -22,7 +22,6 @@
 
 
   <ItemGroup>
-    <Folder Include="Areas\Admin\Views\Coupon\" />
     <Folder Include="Controllers\" />
     <Folder Include="wwwroot\images\" />
   </ItemGroup>
